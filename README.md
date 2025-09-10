@@ -38,3 +38,7 @@ This is a minimal React + Vite project implementing the **Dashboard Widgets** as
 ## Notes for you
 - Code is intentionally simple and dependency-free (no Redux) — uses React state + localStorage.
 - Feel free to swap state management with Redux Toolkit or Zustand if required by your assignment.
+
+## Live Demo
+- https://vercel.com/vishal-tiwaris-projects-9add6285/dashboard
+  
