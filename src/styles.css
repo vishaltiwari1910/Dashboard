@@ -1,0 +1,63 @@
+:root{
+  --bg: #0f172a;
+  --card: #0b1220;
+  --accent: #06b6d4;
+  --muted: #94a3b8;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter, system-ui, Arial, sans-serif;
+  background: linear-gradient(180deg,#071029 0%, #081226 100%);
+  color:#e6eef8;
+  padding:20px;
+  min-height:100vh;
+}
+.app{
+  max-width:1100px;
+  margin:0 auto;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:18px;
+}
+.search input{
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.02);
+  color:inherit;
+}
+.categories{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:16px;
+}
+.category{
+  background:var(--card);
+  padding:12px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.03);
+}
+.category h3{margin:0 0 8px 0}
+.widgets{display:flex;flex-direction:column;gap:8px}
+.widget{
+  padding:10px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:8px;
+}
+.widget .meta{font-size:13px;color:var(--muted)}
+.widget .actions button{
+  background:transparent;border:0;color:#ff6b6b;font-weight:bold;cursor:pointer;
+}
+.add-form{display:flex;gap:8px;margin-top:10px}
+.add-form input, .add-form textarea, .add-form select{
+  padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit;
+}
+.add-form button{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:#022;cursor:pointer}
