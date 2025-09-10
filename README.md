@@ -40,5 +40,5 @@ This is a minimal React + Vite project implementing the **Dashboard Widgets** as
 - Feel free to swap state management with Redux Toolkit or Zustand if required by your assignment.
 
 ## Live Demo
-- https://vercel.com/vishal-tiwaris-projects-9add6285/dashboard
+- https://dashboard-rho-taupe-23.vercel.app/
   
